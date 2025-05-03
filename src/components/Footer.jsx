@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-               Founder - <span style={{cursor:"pointer"}}>Manoj Keragoda - </span> 8197327708
+               Founder - <span style={{cursor:"pointer"}} onClick={()=>navigate("/seller")}> 8197327708
             </p>
             <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
                 Copyright {new Date().getFullYear()} © varungowda.dev All Right Reserved.
