@@ -1,4 +1,4 @@
-import logo from "./AM_logo.png";
+import logo from "./Am_logo.png";
 import search_icon from "./search_icon.svg";
 import remove_icon from "./remove_icon.svg";
 import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
