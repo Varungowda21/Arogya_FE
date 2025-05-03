@@ -66,23 +66,19 @@ const fetchUser = async ()=>{
     }
 
 // Add Product to Cart
-const addToCart = async(itemId)=>{
-    try {
-        const { data } = await axios.get('api/user/is-auth');
-        console.log(data)
-        if (data.success) {
-            let cartData = { ...cartItems };
-            cartData[itemId] = (cartData[itemId] || 0) + 1;
-            setCartItems(cartData);
-            toast.success("Added to Cart");
-        } else {
-            setShowUserLogin(true);
-            toast.error("Please login to add items to cart");
-        }
-    } catch (error) {
-        toast.error(error.message);
+// Add Product to Cart
+const addToCart = (itemId)=>{
+    let cartData = structuredClone(cartItems);
+
+    if(cartData[itemId]){
+        cartData[itemId] += 1;
+    }else{
+        cartData[itemId] = 1;
     }
+    setCartItems(cartData);
+    toast.success("Added to Cart")
 }
+
 
   // Update Cart Item Quantity
   const updateCartItem = (itemId, quantity)=>{
