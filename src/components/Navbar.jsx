@@ -125,7 +125,7 @@ const Navbar = () => {
             <a href="https://www.instagram.com/your_instagram_handle" target="_blank" rel="noopener noreferrer" className="text-pink-500 text-xl transition-transform hover:scale-110">
               <FaInstagram />
             </a>
-            <a href="https://wa.me/your_whatsapp_number" target="_blank" rel="noopener noreferrer" className="text-green-500 text-xl transition-transform hover:scale-110">
+            <a href="https://wa.me/919916045591" target="_blank" rel="noopener noreferrer" className="text-green-500 text-xl transition-transform hover:scale-110">
               <FaWhatsapp />
             </a>
             <a href="https://www.facebook.com/your_facebook_handle" target="_blank" rel="noopener noreferrer" className="text-blue-600 text-xl transition-transform hover:scale-110">
