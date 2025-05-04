@@ -13,7 +13,7 @@ const SocialMediaHandles = () => {
         <FaInstagram />
       </a>
       <a
-        href="https://wa.me/919916045591"
+        href="https://wa.me/+919113998915"
         target="_blank"
         rel="noopener noreferrer"
         className="text-green-500 text-2xl transition-transform hover:scale-110"
