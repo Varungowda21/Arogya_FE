@@ -74,13 +74,13 @@ const Navbar = () => {
 
         {/* Social Icons Desktop */}
         <div className="hidden sm:flex items-center gap-4 ml-6">
-          <a href="https://www.instagram.com/your_instagram_handle" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-500 text-xl transition-transform hover:scale-110">
+          <a href="https://www.instagram.com/arogya_mandya?igsh=MWxha240ZWJhcjloYQ==" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-500 text-xl transition-transform hover:scale-110">
             <FaInstagram />
           </a>
           <a href="https://wa.me/919916045591" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-500 text-xl transition-transform hover:scale-110">
             <FaWhatsapp />
           </a>
-          <a href="https://www.facebook.com/your_facebook_handle" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 text-xl transition-transform hover:scale-110">
+          <a href="https://www.facebook.com/profile.php?id=61575630644614" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 text-xl transition-transform hover:scale-110">
             <FaFacebookF />
           </a>
         </div>
