@@ -57,7 +57,7 @@ export default function GoldPlan() {
       <div className="flex flex-row flex-wrap items-center gap-4">
   {/* WhatsApp Button */}
   <a
-    href="https://wa.me/919916045591"
+    href="https://wa.me/919113998915"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 bg-green-500 text-white px-5 py-3 rounded-full shadow hover:bg-green-600 transition"
@@ -68,7 +68,7 @@ export default function GoldPlan() {
 
   {/* Call Us Button */}
   <a
-    href="tel:+919916045591"
+    href="tel:+919113998915"
     className="inline-flex items-center gap-2 bg-blue-600 text-white px-5 py-3 rounded-full shadow hover:bg-blue-700 transition"
   >
     <FaPhoneAlt className="text-xl" />
