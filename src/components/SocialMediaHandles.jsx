@@ -5,7 +5,7 @@ const SocialMediaHandles = () => {
   return (
     <div className="flex justify-center gap-6 mt-6">
       <a
-        href="https://www.instagram.com/your_instagram_handle"
+        href="https://www.instagram.com/arogya_mandya?igsh=MWxha240ZWJhcjloYQ=="
         target="_blank"
         rel="noopener noreferrer"
         className="text-pink-500 text-2xl transition-transform hover:scale-110"
@@ -21,7 +21,7 @@ const SocialMediaHandles = () => {
         <FaWhatsapp />
       </a>
       <a
-        href="https://www.facebook.com/your_facebook_handle"
+        href="https://www.facebook.com/profile.php?id=61575630644614"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-600 text-2xl transition-transform hover:scale-110"
